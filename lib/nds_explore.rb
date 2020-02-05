@@ -12,5 +12,6 @@ def print_first_directors_movie_titles
   i = 0
   for i in directors_database do
     put directors_database[i]
+    i += 1
   end
 end
